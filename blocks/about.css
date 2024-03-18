@@ -10,18 +10,18 @@
 .about__content {
   max-width: 660px;
   margin: 19px 80px 173px;
-  font-family: Noto sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 30px;
-  left: 350;
 }
 
 .about__paragraph {
   margin: 0 0 20;
   color: #fff;
   margin-top: 0;
+  font-family: Noto sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  left: 350;
 }
 
 .about__title {

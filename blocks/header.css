@@ -5,6 +5,13 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+  background-image: url(../images/background_header.svg);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
 
 .header__image {
@@ -13,6 +20,7 @@
   height: 568px;
   right: 5px;
   top: 124px;
+  z-index: -1;
 }
 .header__title {
   max-width: 729px;
@@ -49,6 +57,13 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  align-items: flex-end;
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #838383;
 }
 
 .header__paragraph {
