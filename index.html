@@ -6,7 +6,7 @@
     <meta name="keywords" content="coffee, metal, music" />
     <meta name="author" content="Artem Mikhaylov" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,7 +38,7 @@
               <a href="#menu-page" class="nav__link">Menu</a>
             </li>
             <li>
-              <a href="#contacts-page" class="nav__link">Contacts</a>
+              <a href="#contacts" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -104,22 +104,31 @@
                   type="text"
                   class="form__input"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
               <label class="form__label">
                 Number of guests *
-                <input type="number" class="form__input" placeholder="1-8"
-              /></label>
+                <input
+                  type="number"
+                  class="form__input"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
               <label class="form__label"
-                >Date & Time * <input type="datetime-local" class="form__input"
-              /></label>
+                >Date & Time *
+                <input type="datetime-local" class="form__input" required />
+              </label>
               <label class="form__label"
                 >Your email *
                 <input
                   type="email"
                   class="form__input"
                   placeholder="email@email.com"
-              /></label>
+                  required
+                />
+              </label>
             </fieldset>
             <button class="form__button">Book a table</button>
             <label class="form__label form__label_type_checkbox">
@@ -235,7 +244,7 @@
             </p>
           </div>
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer class="footer">
@@ -246,7 +255,7 @@
             class="footer__logo"
           />
           <div class="footer__column">
-            <h3 class="social__heading">Social media</h3>
+            <h3 class="social-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">

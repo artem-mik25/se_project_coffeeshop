@@ -13,15 +13,13 @@
 }
 
 .about__paragraph {
-  margin: 0 0 20;
+  margin: 0 0 20px;
   color: #fff;
-  margin-top: 0;
-  font-family: Noto sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
-  left: 350;
 }
 
 .about__title {
