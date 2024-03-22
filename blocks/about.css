@@ -4,11 +4,10 @@
   display: flex;
   position: relative;
   justify-content: space-between;
-  padding: 100px 80px 173px;
+  padding: 100px 40px 86px;
 }
 
 .about__content {
-  max-width: 660px;
   margin: 19px 80px 173px;
 }
 
@@ -20,12 +19,17 @@
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 660px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 .about__title {
   max-width: 251px;
   z-index: 1;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-size: 44px;
   font-weight: 500;
@@ -33,6 +37,7 @@
   color: #fff;
   margin: 0%;
 }
+
 .about__circle {
   background-color: #2f80ed;
   padding: 0%;
@@ -61,13 +66,4 @@
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
   transform: scale(1.1);
-  background-color: #2f80ed;
-  border-radius: 50%;
-  padding: 0;
-  position: absolute;
-  top: -150px;
-  left: -120px;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
 }

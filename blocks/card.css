@@ -17,11 +17,11 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 6px;
 }
 .card__list-item {
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   font-family: Noto Serif;
   font-style: normal;
   font-weight: 400;
