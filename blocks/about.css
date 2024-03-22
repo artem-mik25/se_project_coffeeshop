@@ -4,11 +4,12 @@
   display: flex;
   position: relative;
   justify-content: space-between;
-  padding: 100px 40px 86px;
+  padding: 100px 80px 86px 40px;
 }
 
 .about__content {
   margin: 19px 80px 173px;
+  max-width: 660px;
 }
 
 .about__paragraph {
@@ -19,7 +20,6 @@
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
-  max-width: 660px;
 }
 
 .about__paragraph:last-of-type {
@@ -65,5 +65,4 @@
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
-  transform: scale(1.1);
 }

@@ -22,7 +22,7 @@
 .card__list-item {
   display: flex;
   margin-bottom: 10px;
-  font-family: Noto Serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
