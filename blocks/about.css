@@ -4,11 +4,10 @@
   display: flex;
   position: relative;
   justify-content: space-between;
-  padding: 100px 80px 86px 80px;
+  padding: 119px 80px 173px;
 }
 
 .about__content {
-  margin: 19px 80px 173px;
   max-width: 660px;
 }
 
